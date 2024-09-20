@@ -186,8 +186,6 @@ public class GenericBubbleSort {
   
 - **No runtime overhead** is introduced by generics. Code is compiled and optimized without the need for type casting or re-checking, making it ideal for algorithms and data structures.
 
----
-
 ### 📘 Conclusion
 
 This assignment explores key advanced Java concepts, each contributing to the **generality**, **reusability**, and **reliability** of the code. By understanding and applying these concepts, developers can write more flexible and maintainable Java programs that handle a variety of data types and structures.
