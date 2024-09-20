@@ -3,7 +3,7 @@
 <div align="center">
   <table width="100%" border="1" cellpadding="10" cellspacing="0">
     <tr style="background-color:#f2f2f2;">
-      <td align="center" colspan="2"><strong>Assignment 2: Advanced Java Concepts: Varargs, Function Simulation, Polymorphism, and Generics</strong></td>
+      <td align="center" colspan="2"><strong>Assignment 2: Advanced Java Concepts</strong></td>
     </tr>
     <tr>
       <td align="center"><strong>Names:</strong><br>Mootaz Medhat Ezzat Abdelwahab</td>
