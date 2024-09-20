@@ -188,8 +188,6 @@ public class GenericBubbleSort {
 
 **Key Benefit:** Generics provide **type safety** at compile-time and eliminate the need for casting, making the code more reliable and reducing runtime errors.
 
----
-
 ### 📘 Conclusion
 
 This assignment explores important concepts in Java, demonstrating how they help enhance code flexibility, generality, and reusability. Through the use of varargs, method references, polymorphism, and generics, Java provides robust features that simplify complex tasks, making programs more efficient and adaptable.
