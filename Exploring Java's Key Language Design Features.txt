@@ -1,0 +1,61 @@
+Name    : Mootaz Medhat Ezzat Abdelwahab               
+ID      : 20206074
+Group   : S5
+Lab Slot: Wednesday[11:15-12:30]
+-----------------------------------------
+Programming Language:[Java]
+-----------------------------------------
+
+> Example Show How The Expressivity Can Enhance Writability And In The Same Time Reduce Readability:- 
+   _____________________________________________________________________
+  |boolean isMorning = true; String greeting;                           |
+  |if(isMorning) {                                                      |
+  |    System.out.println(greeting);                                    |
+  |} else {                                                             |
+  |    System.out.println(greeting);                                    |
+  |}                                                                    |
+  |greeting = isMorning? "Good Morning":"Good Evening";                 |        
+  |_____________________________________________________________________|
+  The last "if else" statement above is expressive; Because it written in relatively convenient manner, rather than cumbersome.
+  Therefore it enhances the writability. But in the same time it reduce the readability; Because programmer need to save in his 
+  mind that there are two different ways. Which negatively affects simplicity,
+
+> Example Show How The Lack of Orthogonality Can Reduce Readability:- 
+   _____________________________________________________________________
+  |int x; int arr1[] = new int [3];                                     |
+  |x = 5;                       //this assignment is allowed in Java    |        
+  |arr1 = {1, 2, 3};            //this assignment is not allowed in Java|
+  |_____________________________________________________________________|
+  Java allow variables assignments only if there on the left side of the assignment; however, It does not allow array assignments. 
+  You can only initialize arrays with predetermined values. Thereby programmer need to save in his mind that it is not allowed to 
+  assign a set of values to the array after the initialization. Which negatively affects simplicity, thereby reduce readability.
+  
+> Issues of Syntax Design Which Affect Readability:-
+  - In Java, Statement groups are always terminated in the same way, which makes it difficult to determine which group is being ended 
+    when "}" appears. Although that enhance simplicity but reduces readability.
+  - Java doesn't allow using special words of a language as names for program variables:[double int;  //Inalid name for the variable in Java]
+    Whic enhance readability.
+  
+> Exceptions In Java Can Be Handled:-
+  - Implicitly by the JVM through a collection of predefined exceptions like Arithmetic Exception when divid by zero [int result = 5 / 0;].
+    Once the exception is handled, JVM will halt the program and no more execution of code will take place .
+  - Explicitly by programmer like using "try catch block" to threw specific exception.Once an exception is handled,the normal execution of code will continue.
+  
+> In Java, Named Constants Are Defined With The Final Reserved Word [final int x = 50;]:- 
+  - Java allows dynamic binding of values to named constants.This allows expressions containing variables to be assigned to constants in the declarations. 
+  - The initial value can be given in the declaration statement or in a subsequent assignment statement [final int x = 2 * Y + 10;].
+    
+> Java Supports Static Type Binding(Only Explicit Declaration):-
+  - which means that all variables must first be bind to its type before they can be referenced in a program [int var = 10;].
+  
+> Java Supports Three of The Four Variables Categories, according to their lifetimes:-
+  1)static variables(global variables and named constants), Static class variables can also be considered in java as static variables.  
+  2)stack-dynamic variables. Which are dynamically allocated at run-time in the memory stack.
+  3)explicit heap-dynamic variables. Which are explicitly deallocating from memory heap by the java run-time garbage collector.
+  
+> statically Typed Languages Such As The Java Programming Language:-
+  - does most of its type checking at compile time, checking the types of variables, not values. Thereby proving the absence of type errors.
+    For example[int result = 2 * x]. Here x should be of a type that allows multiplication by an integer.
+
+> A Side Effect of A Function or Operator Occurs When The Function Changes Either One of Its Parameters or Global Variable:-
+  - Java guarantees that operands are evaluated from left to right, Thereby such side effects dont exist in java.
